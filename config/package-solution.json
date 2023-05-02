@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "edit-vacation-request-client-side-solution",
+    "id": "99bd48a4-3b09-4282-8c80-b68d5bc56758",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "edit-vacation-request description"
+      },
+      "longDescription": {
+        "default": "edit-vacation-request description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "edit-vacation-request Feature",
+        "description": "The feature that activates elements of the edit-vacation-request solution.",
+        "id": "c9020ec0-2396-4748-98e7-50442f804db4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/edit-vacation-request.sppkg"
+  }
+}

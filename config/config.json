@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "edit-vacation-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editVacationRequest/EditVacationRequestWebPart.js",
+          "manifest": "./src/webparts/editVacationRequest/EditVacationRequestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EditVacationRequestWebPartStrings": "lib/webparts/editVacationRequest/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
